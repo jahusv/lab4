@@ -15,7 +15,7 @@ jobs:
       - name: install dependesies 
         run: npm ci
 
-      - name: Build site
+      - name: create site
         run: npm run build
 
       - name: Deploy to GitHub Pages
